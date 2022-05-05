@@ -1,0 +1,71 @@
+.tcontainer {
+	width: calc(100% - 20px);
+	display: flex;
+	justify-content: space-between;
+	margin: 25px 10px 25px 10px;
+}
+
+.delbtn {
+	width: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background-color: #dc3545;
+	border-color: #dc3545;
+	text-decoration: none;
+	border: 1px solid transparent;
+	font-weight: 400;
+	cursor: pointer;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	font-size: 16px;
+	line-height: 1.5;
+	border-radius: 0.25rem;
+}
+
+.delbtn:hover {
+	color: #fff;
+	background-color: #c82333;
+	border-color: #bd2130;
+}
+
+.task {
+	border-top: 40px;
+	color: black;
+	font-size: 18px;
+	border-radius: 0.25rem;
+	padding: 10px;
+	padding-left: 20px;
+	width: calc(100% - 100px);
+	border: 1px solid rgba(0 0 0 / 0.1);
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.task:hover {
+	background: rgba(0 0 0 / 0.1);
+}
+
+.comtask {
+	border-top: 40px;
+	font-size: 18px;
+	border-radius: 0.25rem;
+	padding: 10px;
+	padding-left: 20px;
+	width: calc(100% - 100px);
+	text-decoration: line-through;
+	background-color: rgba(0 0 0 / 0.1);
+	border: 1px solid rgba(0 0 0 / 0.1);
+	color: rgba(255, 255, 255, 0.9);
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.comtask:hover {
+	color: black;
+	background-color: rgba(0 0 0 / 0);
+	border: 1px solid rgba(0 0 0 / 0.1);
+}
